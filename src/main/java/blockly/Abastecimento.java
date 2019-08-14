@@ -23,7 +23,11 @@ public static Var calcCustoKm(Var Entidade) throws Exception {
    private Var custoKm = Var.VAR_NULL;
 
    public Var call() throws Exception {
-    custoKm = cronapi.math.Operations.divisor(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("valor")),cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("km")));
+    System.out.println(Var.valueOf("chamou custoKm").getObjectAsString());
+    custoKm = Var.valueOf(0);
+    if (Var.valueOf(cronapi.logic.Operations.isNullOrEmpty(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("valor"))).negate().getObjectAsBoolean() && cronapi.logic.Operations.isNullOrEmpty(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("km"))).negate().getObjectAsBoolean()).getObjectAsBoolean()) {
+        custoKm = cronapi.math.Operations.divisor(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("valor")),cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("km")));
+    }
     return custoKm;
    }
  }.call();
@@ -42,8 +46,13 @@ public static Var calcKmPorLitro(Var Entidade) throws Exception {
    private Var kmPorLitro = Var.VAR_NULL;
 
    public Var call() throws Exception {
-    litros = cronapi.math.Operations.divisor(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("valor")),cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("precoLitro")));
-    kmPorLitro = cronapi.math.Operations.divisor(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("km")),litros);
+    System.out.println(Var.valueOf("chamou calcKmPorLitro").getObjectAsString());
+    System.out.println(Entidade.getObjectAsString());
+    kmPorLitro = Var.valueOf(0);
+    if (Var.valueOf(cronapi.logic.Operations.isNullOrEmpty(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("valor"))).negate().getObjectAsBoolean() && cronapi.logic.Operations.isNullOrEmpty(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("precoLitro"))).negate().getObjectAsBoolean()).getObjectAsBoolean()) {
+        litros = cronapi.math.Operations.divisor(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("valor")),cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("precoLitro")));
+        kmPorLitro = cronapi.math.Operations.divisor(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("km")),litros);
+    }
     return kmPorLitro;
    }
  }.call();
@@ -61,7 +70,11 @@ public static Var calcLitros(Var Entidade) throws Exception {
    private Var litros = Var.VAR_NULL;
 
    public Var call() throws Exception {
-    litros = cronapi.math.Operations.divisor(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("valor")),cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("precoLitro")));
+    System.out.println(Var.valueOf("chamou calcLitros").getObjectAsString());
+    litros = Var.valueOf(0);
+    if (Var.valueOf(cronapi.logic.Operations.isNullOrEmpty(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("valor"))).negate().getObjectAsBoolean() && cronapi.logic.Operations.isNullOrEmpty(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("precoLitro"))).negate().getObjectAsBoolean()).getObjectAsBoolean()) {
+        litros = cronapi.math.Operations.divisor(cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("valor")),cronapi.object.Operations.getObjectField(Entidade, Var.valueOf("precoLitro")));
+    }
     return litros;
    }
  }.call();
