@@ -39,6 +39,7 @@ public class SecurityPermission implements Permission {
   	// role hasAuthority permission
   	http.authorizeRequests().antMatchers("/api/security/**").hasAuthority(ROLE_ADMIN_NAME);
   	http.authorizeRequests().antMatchers("/views/admin/**").hasAuthority(ROLE_ADMIN_NAME);
+  	http.authorizeRequests().antMatchers("/views/admin/**").hasAuthority(ROLE_ADMIN_POSTO);
   
   	// autenticated
   	http.authorizeRequests().antMatchers("/api/rest/**").authenticated();
