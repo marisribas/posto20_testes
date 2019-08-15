@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly formTarget="src/main/webapp/views/logged/meusabastecimentos.view.html" resourceType="JS" ruleDescription="MeusAbastecimentos" ruleName="MeusAbastecimentos" ruleSynchronous="false" ruleTimeout="300" ruleType="I">
+  <metadata scale="1" scrollx="936" scrolly="96.09999999999994" target="6NR(=hC|(n`j?Qo_+6LP"/>
+  <block colour="#fca03b" id="6NR(=hC|(n`j?Qo_+6LP" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-922" y="-97">
+    <field name="NAME">calcularValidar</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="2XC0IC^3^UW`:z85KTdX" multilayer="true" namespace="cronapi.screen.changeValueOfField" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAlterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20alterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Valor%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.changeValueOfField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.changeValueOfField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.screen.changeValueOfField}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Valor"/>
+        </mutation>
+        <value name="ARG0">
+          <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="UfkpZ/{8G?dxMv5yR}rA" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+            <field name="SELECT">Abastecimento.active.litros</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="XNNKI,[Dj.2$YXYT]3KL" origintype="text" output="true" tooltip="function () { [native code] }" type="text" xmlns="">
+            <field name="TEXT"/>
+          </shadow>
+          <block colour="#5b6da5" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="O,/r]rB^q]0d1Yf2bk0P" origintype="math_arithmetic" output="true" tooltip="function () { [native code] }" type="math_arithmetic">
+            <mutation items="2"/>
+            <field name="OP1">DIVIDE</field>
+            <value name="ARG0">
+              <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id=";JP6.L_:+CwSx(OjOv(a" inline="true" multilayer="false" namespace="cronapi.screen.getValueOfField" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20valor%20do%20Campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                <mutation name="{{cronapi.screen.getValueOfField}}" return-raw-type="undefined">
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+                </mutation>
+                <value name="ARG0">
+                  <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="Go$Z?,1iWNoI7_AvhF@J" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+                    <field name="SELECT">Abastecimento.active.valor</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="s}y--UW#A@B38udfn{}J" inline="true" multilayer="false" namespace="cronapi.screen.getValueOfField" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20valor%20do%20Campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                <mutation name="{{cronapi.screen.getValueOfField}}" return-raw-type="undefined">
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+                </mutation>
+                <value name="ARG0">
+                  <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="$SCe#KC4i1CQS)AIUh^b" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+                    <field name="SELECT">Abastecimento.active.precoLitro</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="(HGw0(5u`jwAB!W)?E}+" multilayer="true" namespace="cronapi.screen.changeValueOfField" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAlterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20alterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Valor%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.changeValueOfField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.changeValueOfField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+            <mutation name="{{cronapi.screen.changeValueOfField}}" return-raw-type="undefined">
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Valor"/>
+            </mutation>
+            <value name="ARG0">
+              <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="|,!g,MTC|J-0Wd?@oM^A" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+                <field name="SELECT">Abastecimento.active.KmPorLitro</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="XNNKI,[Dj.2$YXYT]3KL" origintype="text" output="true" tooltip="function () { [native code] }" type="text" xmlns="">
+                <field name="TEXT"/>
+              </shadow>
+              <block colour="#5b6da5" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="k0Xd`YM5wPFLr9or8`qk" origintype="math_arithmetic" output="true" tooltip="function () { [native code] }" type="math_arithmetic">
+                <mutation items="2"/>
+                <field name="OP1">DIVIDE</field>
+                <value name="ARG0">
+                  <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="75^^o`^b;#%}sFfw,#cS" inline="true" multilayer="false" namespace="cronapi.screen.getValueOfField" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20valor%20do%20Campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                    <mutation name="{{cronapi.screen.getValueOfField}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="J@1g%KKj,}_j=(_a9zN6" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+                        <field name="SELECT">Abastecimento.active.km</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="|JDCdyw#Fw]EODcgMfgM" inline="true" multilayer="false" namespace="cronapi.screen.getValueOfField" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20valor%20do%20Campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                    <mutation name="{{cronapi.screen.getValueOfField}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="hgd~R!+U3LV6e@;y#d+9" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+                        <field name="SELECT">Abastecimento.active.litros</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block colour="#5b80a5" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="]gMzjrZ$kSHf38)#$OUG" origintype="controls_if" output="false" tooltip="function () { [native code] }" type="controls_if">
+                <mutation else="1"/>
+                <value name="IF0">
+                  <block colour="#5b80a5" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="R`/A[RzqZL;)G/C(]hxn" origintype="logic_compare" output="true" tooltip="function () { [native code] }" type="logic_compare">
+                    <field name="OP">GT</field>
+                    <value name="A">
+                      <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="-!4f5(e2`^_FrQLV;,pk" inline="true" multilayer="false" namespace="cronapi.screen.getValueOfField" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20valor%20do%20Campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                        <mutation name="{{cronapi.screen.getValueOfField}}" return-raw-type="undefined">
+                          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+                        </mutation>
+                        <value name="ARG0">
+                          <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="?Z*!!W=-sr1s+Sh7,Q~C" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+                            <field name="SELECT">Abastecimento.active.valor</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block colour="#5b67a5" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="!~m/q*BdMCW=lmoPnf|_" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                        <field name="NUM">1000</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="r0KR@L8{~jtYRWS[DZNu" multilayer="true" namespace="cronapi.screen.notify" origintype="notify_type" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20exibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tipo%20da%20notifica%C3%A7%C3%A3o%20:%20Texto%3C/span%3E%3Cdiv%3E%20pode%20ser%20success,%20error,%20warning,%20info%20ou%20primary%3C/div%3E%3Cspan%3E%20-%20Mensagem%20:%20Texto%3C/span%3E%3Cdiv%3E%20Mensagem%20ou%20conte%C3%BAdo%20html%20a%20ser%20exibido%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.notify%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.notify%3C/a%3E%3C/div%3E%3C/div%3E" type="notify_type">
+                    <mutation name="{{cronapi.screen.notify}}" value="[object Object]"/>
+                    <field name="SELECT">error</field>
+                    <value name="MESSAGE">
+                      <shadow colour="#5ba593" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="bwS$hF]yssU13=?c/dc9" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                        <field name="TEXT">Valor do abastecimento muito alto!!</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="KC(IDtbrLtsk~u0)tsxG" multilayer="true" namespace="cronapi.screen.disableComponent" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EDesabilitar%20componente%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20desabilita%20o%20uso%20do%20componente%20na%20tela%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Identificador%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Identificador%20do%20componente%20a%20ser%20modificado%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.disableComponent%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.disableComponent%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+                        <mutation name="{{cronapi.screen.disableComponent}}" return-raw-type="undefined">
+                          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Identificador"/>
+                        </mutation>
+                        <value name="ARG0">
+                          <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="Lk;_u.qTD)tZ(Tn:bC55" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                            <field name="SELECT">btn_crud_post41107</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block colour="#0088ee" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="P@[u{[@$SHRxH/@tE$.1" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+                            <field name="VAR">dadosValidos</field>
+                            <value name="VALUE">
+                              <block colour="#5b80a5" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="@e~^9eBqh/pPcG,T:-TU" origintype="logic_boolean" output="true" tooltip="Retorna verdadeiro ou falso." type="logic_boolean">
+                                <field name="BOOL">FALSE</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <statement name="ELSE">
+                  <block colour="#5b80a5" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="kuj0|YC}=cLpw_82nGhL" origintype="controls_if" output="false" tooltip="function () { [native code] }" type="controls_if">
+                    <mutation else="1"/>
+                    <value name="IF0">
+                      <block colour="#5b80a5" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="wxZUX_HIXSPHJwf:yvj," origintype="logic_compare" output="true" tooltip="function () { [native code] }" type="logic_compare">
+                        <field name="OP">GT</field>
+                        <value name="A">
+                          <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="-zFx{}gtH@{*Y{!OR|4d" inline="true" multilayer="false" namespace="cronapi.screen.getValueOfField" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20valor%20do%20Campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                            <mutation name="{{cronapi.screen.getValueOfField}}" return-raw-type="undefined">
+                              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+                            </mutation>
+                            <value name="ARG0">
+                              <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="h8jYt(lPR=!jY9C?fArD" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+                                <field name="SELECT">Abastecimento.active.litros</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block colour="#5b67a5" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="r:0z{]LEXBA8CBzL0JRo" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                            <field name="NUM">200</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="wj`%A~5Scnb:lMR2GMHB" multilayer="true" namespace="cronapi.screen.notify" origintype="notify_type" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20exibe%20notifica%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Tipo%20da%20notifica%C3%A7%C3%A3o%20:%20Texto%3C/span%3E%3Cdiv%3E%20pode%20ser%20success,%20error,%20warning,%20info%20ou%20primary%3C/div%3E%3Cspan%3E%20-%20Mensagem%20:%20Texto%3C/span%3E%3Cdiv%3E%20Mensagem%20ou%20conte%C3%BAdo%20html%20a%20ser%20exibido%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.notify%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.notify%3C/a%3E%3C/div%3E%3C/div%3E" type="notify_type">
+                        <mutation name="{{cronapi.screen.notify}}" value="[object Object]"/>
+                        <field name="SELECT">error</field>
+                        <value name="MESSAGE">
+                          <shadow colour="#5ba593" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="yMB06-1n?9.8UWBA$O8d" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field name="TEXT">Total de litros abastecido muito alto! Reveja os dados informados!</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="P_#HR6Patqxcx/4{U@1z" multilayer="true" namespace="cronapi.screen.disableComponent" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EDesabilitar%20componente%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20desabilita%20o%20uso%20do%20componente%20na%20tela%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Identificador%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Identificador%20do%20componente%20a%20ser%20modificado%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.disableComponent%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.disableComponent%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+                            <mutation name="{{cronapi.screen.disableComponent}}" return-raw-type="undefined">
+                              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Identificador"/>
+                            </mutation>
+                            <value name="ARG0">
+                              <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="8VGo)6G3bjaw*V~]Q_M-" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                                <field name="SELECT">btn_crud_post41107</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block colour="#0088ee" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="=W*bZ!|Sicnd3ig%s~)0" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+                                <field name="VAR">dadosValidos</field>
+                                <value name="VALUE">
+                                  <block colour="#5b80a5" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="W4SJ$:;RS(V[m.#2/Onp" origintype="logic_boolean" output="true" tooltip="Retorna verdadeiro ou falso." type="logic_boolean">
+                                    <field name="BOOL">FALSE</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <statement name="ELSE">
+                      <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="WJZZ0!7+BqfvqU)+G]4H" multilayer="true" namespace="cronapi.screen.enableComponent" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EHabilitar%20componente%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20habilita%20o%20componente%20o%20uso%20do%20componente%20na%20tela%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Identificador%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Identificador%20do%20componente%20a%20ser%20modificado%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.enableComponent%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.enableComponent%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+                        <mutation name="{{cronapi.screen.enableComponent}}" return-raw-type="undefined">
+                          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Identificador"/>
+                        </mutation>
+                        <value name="ARG0">
+                          <block colour="#934848" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="bPN0PU_+00Wj5(s$f9=w" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                            <field name="SELECT">btn_crud_post41107</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block colour="#0088ee" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="ZbJ$-^NgL`JYIbj_A-nq" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+                            <field name="VAR">dadosValidos</field>
+                            <value name="VALUE">
+                              <block colour="#5b80a5" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="TAWBb8`9i~Kpdt6F/e;p" origintype="logic_boolean" output="true" tooltip="Retorna verdadeiro ou falso." type="logic_boolean">
+                                <field name="BOOL">TRUE</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="RETURN">
+      <block colour="#0088ee" dependencyby="6NR(=hC|(n`j?Qo_+6LP" id="Dj|93UA8qY~=RZ^*oQNE" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+        <field name="VAR">dadosValidos</field>
+      </block>
+    </value>
+  </block>
+  <block colour="#fca03b" id="Lo-MOu.jQlrP73JC01Fu" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-862" y="-97">
+    <field name="NAME">confirmar</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#5b80a5" dependencyby="Lo-MOu.jQlrP73JC01Fu" id="dDn9%h2!ekIw701rulGP" origintype="controls_if" output="false" tooltip="function () { [native code] }" type="controls_if">
+        <value name="IF0">
+          <block colour="#fca03b" dependencyby="Lo-MOu.jQlrP73JC01Fu" id="xJ9n+6qasI*l:Kp;*%RH" origintype="procedures_callreturn" output="true" tooltip="Executa a função definida pelo usuário &quot;calcularValidar&quot; e usa seu retorno." type="procedures_callreturn">
+            <mutation name="calcularValidar" return-raw-type="undefined"/>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block colour="#934848" dependencyby="Lo-MOu.jQlrP73JC01Fu" id="]IO*gilVRLGg_~t9Fj}M" multilayer="true" namespace="cronapi.screen.post" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EEnviar%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20chama%20o%20m%C3%A9todo%20enviar%20da%20fonte%20de%20dados%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Fonte%20de%20dados%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.post%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.post%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+            <mutation name="{{cronapi.screen.post}}" return-raw-type="undefined">
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Fonte de dados"/>
+            </mutation>
+            <value name="ARG0">
+              <block colour="#934848" dependencyby="Lo-MOu.jQlrP73JC01Fu" id="3Bcpn9mHbAJC.ZlUd+4p" origintype="datasource_from_screen" output="true" type="datasource_from_screen">
+                <field name="SELECT">Abastecimento</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</blockly>

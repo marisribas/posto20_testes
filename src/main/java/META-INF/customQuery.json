@@ -267,9 +267,41 @@
     },
     "defaultValuesProperties": {},
     "security": {},
-    "calcFields": {},
+    "calcFields": {
+      "consumoMedio": {
+        "type": "server",
+        "blocklyMethod": "calculaConsumoMedio",
+        "blocklyClass": "blockly.Carro",
+        "blocklyLanguage": "java",
+        "blocklyParams": [
+          {
+            "name": "Entidade\u0026lt;app.entity.Carro\u0026gt;",
+            "value": "data",
+            "type": "CUSTOM"
+          }
+        ],
+        "blocklyJson": {
+          "namespace": "blockly.Carro",
+          "sourcePath": "src/main/java/blockly/Carro.blockly",
+          "language": "java",
+          "methods": [
+            {
+              "name": "calculaConsumoMedio",
+              "hasReturn": "true",
+              "params": [
+                "Entidade\u0026lt;app.entity.Carro\u0026gt;"
+              ]
+            }
+          ]
+        }
+      }
+    },
     "calcFieldsSecurity": {},
-    "calcFieldsProperties": {},
+    "calcFieldsProperties": {
+      "consumoMedio": {
+        "type": "Double"
+      }
+    },
     "errorHandles": {},
     "serviceUrl": "api/cronapi/odata/v2/query641097/"
   },
