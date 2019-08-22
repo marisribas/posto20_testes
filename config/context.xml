@@ -2,4 +2,5 @@
     <Resource accessToUnderlyingConnectionAllowed="true" driverClassName="org.h2.Driver" logAbandoned="true" name="jdbc/main" password="root" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:h2:file:~/e5b2e45b96d940e4a8c8ecde206a4b3b;DATABASE_TO_UPPER=false;ALIAS_COLUMN_NAME=true;AUTO_SERVER=TRUE" username="root"/>
     <Profile value="DEV"/>
     <Profile value="PROD"/>
+    <Resource accessToUnderlyingConnectionAllowed="false" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" name="jdbc/cloud-db" password="p4cb15a3b0b8640deb6facd3537897" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" schema="" type="javax.sql.DataSource" url="jdbc:mysql://db-posto.cfdacj6pdovg.us-east-1.rds.amazonaws.com:3306/db_posto?createDatabaseIfNotExist=true&amp;useTimezone=true&amp;serverTimezone=UTC&amp;useSSL=false" username="root"/>
 </Context>

@@ -28,6 +28,7 @@
       },
       "queries": [],
       "disableCache": false,
+      "generationType": "drop-and-create-tables",
       "attrs": {}
     },
     {

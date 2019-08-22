@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly formTarget="src/main/webapp/views/logged/meuscarros.view.html" resourceType="JS" ruleDescription="MeusCarros" ruleName="MeusCarros" ruleSynchronous="false" ruleTimeout="300" ruleType="I">
+  <metadata scale="1" scrollx="424.99999999999955" scrolly="-122.99999999999994" target="ZkeJz!@555YsPR:S)[AU"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field name="NAME">abrirModalRelatorio</field>
+    <comment h="80" pinned="false" w="160">MeusCarros</comment>
+    <statement name="STACK">
+      <block colour="#934848" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="e|gTZ8%+BekJH78K1!L^" multilayer="true" namespace="cronapi.screen.showModal" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExibir%20modal%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20exibe%20um%20modal%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Identificador%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Identificador%20do%20componente%20a%20ser%20modificado%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.showModal%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.showModal%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.screen.showModal}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Identificador"/>
+        </mutation>
+        <value name="ARG0">
+          <block colour="#934848" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="DzPUb}sB-2;`H2yIN;cc" origintype="ids_from_screen" output="true" type="ids_from_screen">
+            <field name="SELECT">modal42454</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="ZkeJz!@555YsPR:S)[AU" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-330" y="170">
+    <field name="NAME">fecharModalRelatorio</field>
+    <comment h="80" pinned="false" w="160">MeusCarros</comment>
+    <statement name="STACK">
+      <block colour="#934848" dependencyby="ZkeJz!@555YsPR:S)[AU" id="__=+}TH7cmE;0%Gs:]Z7" multilayer="true" namespace="cronapi.screen.hideModal" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EEsconder%20modal%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20esconde%20um%20modal%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Identificador%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Identificador%20do%20componente%20a%20ser%20modificado%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.hideModal%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.hideModal%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.screen.hideModal}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Identificador"/>
+        </mutation>
+        <value name="ARG0">
+          <block colour="#934848" dependencyby="ZkeJz!@555YsPR:S)[AU" id="9.J6eDRoPZ[69c@Z~fUH" origintype="ids_from_screen" output="true" type="ids_from_screen">
+            <field name="SELECT">modal42454</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</blockly>
